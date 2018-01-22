@@ -42,10 +42,10 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
                             //塞入excel表格2的ii行j列的内容
                             colList.add(result2.get(ii).get(j).toString());
                         }
-                        int b  = result.get(ii).size();
+                        int b  = result.get(i).size();
                         for(int j = 0;j<b; j++){
                             //塞入excel表格1的ii行j列的内容
-                            colList.add(result2.get(ii).get(j).toString());
+                            colList.add(result2.get(i).get(j).toString());
                         }
                         result3.add(colList);
                     }
